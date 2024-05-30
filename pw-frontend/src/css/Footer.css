@@ -1,0 +1,18 @@
+/* src/css/Footer.css */
+
+/* Định dạng cho footer */
+.footer {
+    width: 100%;
+    background-color: #fff;
+    box-shadow: 0 -2px 10px rgba(0, 0, 0, 0.1);
+    padding: 20px 0;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+}
+
+.footer p {
+    margin: 0;
+    color: #000;
+}

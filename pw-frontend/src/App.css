@@ -1,0 +1,9 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    margin: 0;
+    padding-top: 60px;
+    /* Đảm bảo nội dung không bị che bởi header cố định */
+    padding-bottom: 60px;
+    /* Đảm bảo nội dung không bị che bởi footer cố định */
+}

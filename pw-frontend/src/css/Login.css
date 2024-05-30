@@ -1,0 +1,93 @@
+/* src/css/Login.css */
+
+.body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 87vh;
+    margin: 0;
+}
+
+/* Định dạng cho container chính */
+.auth-container {
+    background-color: #fff;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 450px;
+    text-align: center;
+    
+}
+
+/* Phong cách tiêu đề */
+.auth-container h2 {
+    color: #FFC0E6;
+    margin-bottom: 20px;
+}
+
+/* Định dạng cho các nhóm form */
+.form-group {
+    margin-bottom: 20px;
+}
+
+/* Định dạng cho các trường nhập liệu */
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+    text-align: left;
+}
+
+.form-group input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-sizing: border-box;
+    display: block;
+}
+
+/* Định dạng cho nút đăng nhập */
+button[type="submit"] {
+    background-color: #FFC0E6;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    width: 100%;
+}
+
+/* Định dạng cho thông báo lỗi */
+.error-message {
+    color: red;
+    margin-bottom: 20px;
+}
+
+.login-title {
+    font-size: 2em;
+    /* Tăng kích thước chữ */
+    font-weight: bold;
+    /* Làm đậm chữ */
+    margin-bottom: 20px;
+    /* Thêm khoảng cách dưới tiêu đề */
+}
+
+.forgot-password {
+    margin-bottom: 15px;
+    /* Khoảng cách giữa "Quên mật khẩu" và nút đăng nhập */
+}
+
+.forgot-password a {
+    color: #007bff;
+    /* Màu của liên kết */
+    text-decoration: none;
+    /* Gạch chân cho liên kết */
+}
+
+.forgot-password a:hover {
+    text-decoration: underline;
+    /* Bỏ gạch chân khi hover */
+}

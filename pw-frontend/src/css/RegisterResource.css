@@ -1,0 +1,73 @@
+.containerRegister {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.card {
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card-body {
+    padding: 20px;
+}
+
+.table {
+    margin-top: 20px;
+    width: 100%;
+    /* Chiều rộng bảng chiếm toàn bộ chiều rộng của container */
+    table-layout: fixed;
+    /* Chia đều độ rộng của các cột */
+    text-align: center;
+}
+
+.table th,
+.table td {
+    /* overflow: hidden; */
+    /* Để ẩn nội dung tràn */
+    text-overflow: ellipsis;
+    /* Thêm dấu ba chấm cho nội dung tràn */
+    white-space: nowrap;
+    /* Ngăn nội dung xuống dòng */
+    width: 150px;
+}
+
+.thead-dark th {
+    background-color: #d170b1;
+    color: #fff;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.text-danger {
+    color: #dc3545;
+}
+
+.dropdown-menu {
+    display: block;
+    z-index: 1000;
+    /* Đảm bảo dropdown menu luôn hiển thị */
+}
+
+.dropdown-item-accept {
+    color: white;
+    background-color: green;
+}
+
+.dropdown-item-reject {
+    color: white;
+    background-color: red;
+}
+
+.update-note {
+    margin-top: 10px;
+    color: blue;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.update-note:hover {
+    text-decoration: underline;
+}

@@ -1,0 +1,12 @@
+.image-uploader {
+    text-align: center;
+}
+
+.uploaded-image {
+    max-width: 300px;
+    /* Đặt kích thước tối đa cho ảnh */
+    max-height: 300px;
+    /* Đặt chiều cao tối đa cho ảnh */
+    margin-top: 20px;
+    /* Khoảng cách giữa input và ảnh */
+}

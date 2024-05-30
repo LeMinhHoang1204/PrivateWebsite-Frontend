@@ -1,0 +1,51 @@
+.container {
+    /* display: inline-flex; */
+    padding: 20px;
+    max-width: 200px;
+    /* Giới hạn chiều rộng của container */
+    margin: 0 auto;
+    /* Căn giữa container */
+    background-color: #f8f9fa;
+    /* Màu nền */
+    border-radius: 10px;
+    /* Bo tròn các góc */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    /* Hiển thị shadow */
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+    /* Màu chữ */
+}
+
+p {
+    text-align: left;
+}
+
+.employee-details {
+    border: 1px solid #ccc;
+    /* Viền */
+    padding: 20px;
+    border-radius: 5px;
+    background-color: #fff;
+}
+
+.employee-details h3 {
+    margin-top: 0;
+    color: #333;
+}
+
+.employee-details p {
+    margin-bottom: 10px;
+    color: #666;
+}
+
+.employee-details span {
+    font-weight: bold;
+}
+
+.loading {
+    text-align: center;
+}

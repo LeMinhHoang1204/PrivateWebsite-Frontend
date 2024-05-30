@@ -1,0 +1,36 @@
+
+
+.employee-card {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.employee-card h3 {
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+.employee-card p {  
+    margin: 5px 0;
+}
+
+.employee-card p strong {
+    margin: 5px 0;
+    border: 1px solid #ccc;
+        /* Thêm border dưới cho từng dòng */
+    padding-bottom: 5px;
+        /* Thêm padding dưới cho từng dòng */
+}
+
+.employee-card p:last-child {
+    margin-bottom: 0;
+}
+
+.employee-get {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 5px;
+    margin-bottom: 10px;
+}

@@ -1,0 +1,133 @@
+.body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 87vh;
+    margin: 0;
+}
+
+.employee-card {
+    width: 800px;
+    /* Đặt chiều rộng của card */
+    padding: 20px;
+    /* Tạo khoảng cách bên trong card */
+    border: 1px solid #ccc;
+    /* Tạo border cho card */
+    border-radius: 40px;
+    /* Bo tròn góc của card */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    /* Tạo hiệu ứng bóng cho card */
+    /* display: inline-block; */
+}
+
+.employee-card .content {
+    border: 1px solid #ccc;
+    /* Tạo border cho phần nội dung của card */
+    border-radius: 10px;
+    /* Bo tròn góc của card */
+    padding: 15px;
+    /* Thêm padding cho nội dung */
+}
+
+.employee-card .content,
+.employee-card .content * {
+    box-sizing: border-box;
+    /* Đảm bảo border tính cả vào kích thước của phần tử */
+}
+
+.employee-card h2 {
+    margin-bottom: 10px;
+    /* Khoảng cách giữa tiêu đề và label */
+}
+
+.form-group {
+    margin-bottom: 25px;
+    /* Tăng khoảng cách giữa các mục */
+    display: flex;
+    align-items: center;
+}
+
+.form-group label {
+    flex: 1;
+    margin-bottom: 0;
+    font-weight: bold;
+}
+
+.form-group input {
+    flex: 2;
+    padding: 12px;
+    /* Tăng padding */
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    /* Đặt kích thước chữ */
+    box-sizing: border-box;
+    /* Đảm bảo border tính cả vào kích thước của phần tử */
+    margin-right: 10px; 
+    /* Khoảng cách giữa label và input */
+
+}
+
+.button{
+    display: flex;
+    justify-content: flex-end;
+    /* Căn nút ở lề phải */
+    gap: 10px;
+    /* Tạo khoảng cách giữa các nút nếu có nhiều nút */
+    position: absolute;
+    /* Đặt nút ở vị trí tuyệt đối */
+    right: 20px;
+    /* Căn lề phải của nút với card */
+    bottom: 20px;
+    /* Căn lề dưới của nút với card */
+}
+
+.button-fix{
+    width: auto;
+    /* Đặt chiều rộng tự động để nút chỉ chiếm đúng phần cần thiết */
+    padding: 8px 12px;
+    /* Giảm padding để nút nhỏ hơn */
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    /* Giảm border-radius để nút nhỏ hơn */
+    cursor: pointer;
+    position: relative;
+    margin-right: 30px;
+    
+}
+
+.button-cancel {
+    width: 350px;
+    /* Đặt chiều rộng tự động để nút chỉ chiếm đúng phần cần thiết */
+    padding: 8px 12px;
+    /* Giảm padding để nút nhỏ hơn */
+    background-color: #a09999;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    /* Giảm border-radius để nút nhỏ hơn */
+    cursor: pointer;
+    margin-left: 10px;
+    margin-right: 30px;
+
+}
+
+button[type="save"] {
+    width: 350px;
+    /* Đặt chiều rộng tự động để nút chỉ chiếm đúng phần cần thiết */
+    padding: 8px 12px;
+    /* Giảm padding để nút nhỏ hơn */
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    /* Giảm border-radius để nút nhỏ hơn */
+    cursor: pointer;
+
+}
+
+
